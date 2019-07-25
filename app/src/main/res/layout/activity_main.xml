@@ -20,7 +20,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.482" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="24dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            tools:layout_editor_absoluteX="176dp" android:id="@+id/textView2"
+            app:layout_constraintBottom_toTopOf="@+id/button" android:layout_marginBottom="72dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
